@@ -1,1 +1,11 @@
 Hi its new file added
+
+git pull origin master
+
+git pull origin master
+
+git pull origin master
+
+git pull origin master
+
+its new file added
