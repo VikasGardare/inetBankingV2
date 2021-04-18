@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 7, Errors: 0, Skipped: 4, Time elapsed: 1,194.077 s <<< FAILURE! - in TestSuite
+loginTest(com.inetbanking.testCases.TC_LoginTest_001)  Time elapsed: 2.48 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetbanking.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:32)
+
+loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 2.677 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:26)
+
+loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 2.752 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:26)
+
+loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 1.955 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:26)
+
+loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:17)
+
+setup(com.inetbanking.testCases.TC_AddNewCustomer_003)  Time elapsed: 39.7 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=89.0.4389.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC-HP', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0090E7D3+124883]
+	Ordinal0 [0x0090E7B1+124849]
+	GetHandleVerifier [0x00B58688+193832]
+	GetHandleVerifier [0x00B4C137+143319]
+	GetHandleVerifier [0x00B4B45E+140030]
+	GetHandleVerifier [0x00B4B6E6+140678]
+	GetHandleVerifier [0x00B4B025+138949]
+	GetHandleVerifier [0x00B50E8C+163116]
+	GetHandleVerifier [0x00B4AFE1+138881]
+	GetHandleVerifier [0x00B4BD62+142338]
+	GetHandleVerifier [0x00B4B45E+140030]
+	GetHandleVerifier [0x00B4B6E6+140678]
+	GetHandleVerifier [0x00B4B025+138949]
+	GetHandleVerifier [0x00B5017C+159772]
+	GetHandleVerifier [0x00B4AFE1+138881]
+	GetHandleVerifier [0x00B4BD62+142338]
+	GetHandleVerifier [0x00B4B45E+140030]
+	GetHandleVerifier [0x00B4B6E6+140678]
+	GetHandleVerifier [0x00B4B025+138949]
+	GetHandleVerifier [0x00B476ED+124301]
+	GetHandleVerifier [0x00B4AFE1+138881]
+	GetHandleVerifier [0x00B4AE03+138403]
+	GetHandleVerifier [0x00B4ABF7+137879]
+	GetHandleVerifier [0x00B59930+198608]
+	GetHandleVerifier [0x00B95758+443896]
+	GetHandleVerifier [0x00B947FC+439964]
+	GetHandleVerifier [0x00B9154B+426987]
+	GetHandleVerifier [0x00B74FFD+310941]
+	GetHandleVerifier [0x00B75D8E+314414]
+	GetHandleVerifier [0x00B75D19+314297]
+	GetHandleVerifier [0x00C331EC+1089676]
+	GetHandleVerifier [0x00C317C9+1082985]
+	GetHandleVerifier [0x00C313A3+1081923]
+	GetHandleVerifier [0x00D2D9FD+2115741]
+	Ordinal0 [0x00A5B82E+1488942]
+	Ordinal0 [0x009F5A7D+1071741]
+	Ordinal0 [0x009F559B+1070491]
+	Ordinal0 [0x009F54B1+1070257]
+	Ordinal0 [0x00A2FF53+1310547]
+	BaseThreadInitThunk [0x7546FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77607A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77607A1E+238]
+
+
+setup(com.inetbanking.testCases.TC_UpdateCustomer_004)  Time elapsed: 1,117.26 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 297.778
+  (Session info: chrome=89.0.4389.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC-HP', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:3721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca40d115f89a3699d2491ac603ed708b
+
